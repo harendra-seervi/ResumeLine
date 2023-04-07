@@ -1,0 +1,200 @@
+/*color code :  #0073E0 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    /* height: 80%; */
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.logo{
+    display: flex;
+    animation-name: allt;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes allt {
+    0%{
+        transform: translateY(-4px);
+    }
+    100%{
+        transform: translateY(4px);
+    }
+}
+
+.logo-img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.login-both{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    /* margin-bottom:20px; */
+    border-radius: 7px;
+}
+
+.upper-login-name{
+    display: flex;
+    justify-content: space-between;
+}
+.student{
+    border-radius: 7px;
+    width: 50%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    padding:32px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.recruiter{
+    border-radius: 7px;
+    width: 50%;
+    height: 95%;
+    padding:32px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h3{
+    font-weight:650;
+    color: #1d2cff ;
+}
+
+h5{
+    color: rgb(255, 58, 58);
+    font-size: 60%;
+    font-weight: 200;
+}
+
+.continue{
+    display: flex;
+    width: 20%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom:10px; */
+    font-size: 70%;
+    padding:5px;
+    background-color: #ffa81d;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.inp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.inp:focus  {
+    outline: none;
+}
+
+.alive-below{
+    display: flex;
+}
+
+.alive{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-login{
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+    padding:5px;
+    background-color: #ff9d00;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+
+.btn-login:hover{
+    background-color: #e08a00;
+}
+
+.btn-login:active{
+    background-color: #ce7f00;
+    box-shadow: 0 3px rgb(189, 189, 189);
+    transform: translateY(2px);
+    scale: .999;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top:16px;
+}
+
+.social-media{
+    margin-top: 10px;
+    scale: 1.4;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.cp:hover{
+    color:blue;
+    scale: 1.3;
+}
+
+@media screen and (max-width:700px) {
+    /* .login-both{
+        flex-direction: column;
+    }
+    .login-both{
+        width: 75%;
+        justify-items: center;
+        align-items: center;
+    } */
+    .student {
+        margin:0px;
+        width: 95%;
+    }
+    /* .recruiter{
+        margin-top: 20px;
+        width: 95%;
+    } */
+}

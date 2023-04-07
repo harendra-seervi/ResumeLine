@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url('background.jpg');
+}
+/* nav color : rgb(22,24,37) */
+.social-media-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22,24,37) ;
+    color: white;
+    flex-wrap: wrap;
+}
+.hide{
+    display: none;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.gmail{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.m-social{
+    margin-left:5px;
+    margin-right:5px;
+}
+.crosswala{
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+.crosswala:hover{
+    cursor: pointer;
+}
+
+/* Main Nav bar */
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.brand-name{
+    margin: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.brand-name:hover{
+    cursor: pointer;
+}
+.logo:hover{
+    
+    cursor: pointer;
+}
+.nav-button{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    color: white;
+    background-color: #ff9d00;
+    border: none;
+    /* border-radius: 5px; */
+    padding: 21px;
+    /* margin: 1px; */
+    /* height: 100%; */
+    transition:ease-in-out;
+    transition-duration: .3s;
+}
+
+.brand-name{
+    font-weight: 700;
+
+}
+
+/* .nav-btn{
+    margin-right: 20px;
+} */
+.nav-button:hover{
+    background-color: #ff9d00;
+    cursor: pointer;
+}
+
+
+.nav-a{
+    color: inherit;
+    text-decoration: inherit;
+
+}
+.search-icon{
+    color: white;
+    margin:12px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.bg-img{
+    width: 100vw;
+}
+
+/* tag  */
+
+.tag-text{
+    padding-top:150px;
+    padding-left: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.tag-line{
+    font-weight: 700;
+    font-size: 90px;
+}
+.tag-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.get-hired{
+    margin-top: 20px;
+}
+.get-hired-btn{
+    padding: 20px;
+}
+
+/* footer */
+.about-sec{
+    margin-top: 100px;
+    /* width: 100vw; */
+    background-color: white;
+}
+
+.hellon{
+    font-size: 10px;
+    margin-right: 10px;
+}
+.wel{
+    color: #ff9d00;
+    margin-right: 7px;
+    margin-left: 7px;
+    font-family: cursive;
+
+    
+}
+
+.backw{
+    background-color: white;
+    color: black;
+}
+
+.backw:hover{
+    color: white;
+}
+
